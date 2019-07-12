@@ -13,6 +13,7 @@ Public Class Form1
     Dim GOLES_P2_G1 As Integer = 0
     Dim GOLES_P3_G1 As Integer = 0
 
+
     Dim NOME_EQUIPOS_G1(4) As String
 
     Dim PUNTOS_G2(4) As Integer
