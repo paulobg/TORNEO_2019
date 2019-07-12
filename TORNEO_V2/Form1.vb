@@ -3468,12 +3468,12 @@ Public Class Form1
             Dim ds As DataSet
             cn = New MySqlConnection(RUTA_SQL)
 
-            'sql = "show  databases LIKE 'TORNEO%';" 'DEVOLVECHE TODAS AS BASES DE DATOS NAS QUE O SEU NOME EMPECE POR TORNEO
+            sql = "show  databases LIKE 'TORNEO%';" 'DEVOLVECHE TODAS AS BASES DE DATOS NAS QUE O SEU NOME EMPECE POR TORNEO
 
 
 
 
-            sql = "show  databases ;"
+            'sql = "show  databases ;"
 
             cm = New MySqlCommand()
             cm.CommandText = sql
@@ -3491,7 +3491,7 @@ Public Class Form1
 
             CB_TORNEO.DataSource = ds.Tables(0)
 
-            CB_TORNEO.DisplayMember = "Database"
+            CB_TORNEO.DisplayMember = "Database (TORNEO%)"
 
             Dim ARRAY_IT(100) As String
 
