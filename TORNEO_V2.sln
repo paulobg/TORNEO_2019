@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TORNEO_V2", "TORNEO_V2\TORNEO_V2.vbproj", "{03E57F95-AB57-47D1-9724-724B9E5D9B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E57F95-AB57-47D1-9724-724B9E5D9B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E57F95-AB57-47D1-9724-724B9E5D9B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E57F95-AB57-47D1-9724-724B9E5D9B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E57F95-AB57-47D1-9724-724B9E5D9B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0995B12-5801-4C4E-9D16-2B2158A2F875}
+	EndGlobalSection
+EndGlobal
